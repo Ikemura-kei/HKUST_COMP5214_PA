@@ -1,1 +1,1 @@
-python main.py --mode MLP --num_neurons 128 --epoch 100 --lr 1e-3 --exp_name mlp_128
+python main.py --mode MLP --num_neurons 128 --epoch 100 --lr 1e-3 --exp_name mlp_128 --batch_size 64
