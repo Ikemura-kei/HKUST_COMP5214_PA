@@ -1,0 +1,1 @@
+python main.py --mode CAN --epoch 120 --lr 1e-3 --exp_name can_32 --feat_dim 32 --batch_size 64

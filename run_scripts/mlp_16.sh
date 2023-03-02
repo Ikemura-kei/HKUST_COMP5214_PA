@@ -1,0 +1,1 @@
+python main.py --mode MLP --num_neurons 16 --epoch 100 --lr 1e-3 --exp_name mlp_16

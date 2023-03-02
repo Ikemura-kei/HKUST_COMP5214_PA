@@ -1,0 +1,1 @@
+python main.py --mode CNN --exp_name lenet5_relu --epoch 120 --act relu --lr 1e-3

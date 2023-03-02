@@ -1,0 +1,1 @@
+python main.py --mode KNN --exp_name knn_2 --num_neighbors 2
