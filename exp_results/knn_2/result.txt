@@ -1,3 +1,0 @@
-best_val: 0.9631
-num_neighbors: 2
-inference_time: 322.278713226

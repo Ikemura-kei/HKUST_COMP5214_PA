@@ -176,7 +176,7 @@ def main():
     elif mode == MODE_CAN:
         model = CANClassifier(feat_dim)
     elif mode == MODE_KNN:
-        model = KNeighborsClassifier(n_neighbors=1, metric="l1")
+        model = KNeighborsClassifier(n_neighbors=num_neighbors, metric="l1")
         
     if model is None:
         raise Exception("Unrecognized training mode, received {}".format(mode))
