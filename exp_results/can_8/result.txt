@@ -1,0 +1,5 @@
+lr: 0.001
+epoch: 120
+best_val: 0.8411000000000002
+batch_size: 64
+feat_dim: 8

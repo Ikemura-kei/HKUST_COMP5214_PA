@@ -208,7 +208,8 @@ def main():
         
         start = time.time()
         pred_labels = model.predict(test_imgs)
-        print("\tPREDICTION TOOK {} SECONDS".format(time.time()-start))
+        dt = time.time()-start
+        print("\tPREDICTION TOOK {} SECONDS".format(dt))
         acc = np.sum(pred_labels==test_labels)
         best_val = acc / len(test_imgs)
         print("\tTEST ACCURACY: {}".format(best_val))
@@ -248,7 +249,7 @@ def main():
         elif mode == MODE_CAN:
             f.write("feat_dim: {}\n".format(feat_dim))
         elif mode == MODE_KNN:
-            f.write("best_val: {}\nnum_neighbors: {}\n".format(best_val, num_neighbors))
+            f.write("best_val: {}\nnum_neighbors: {}\ninference_time: {}".format(best_val, num_neighbors, dt))
             
         f.close()
         

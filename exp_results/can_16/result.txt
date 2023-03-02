@@ -1,4 +1,5 @@
 lr: 0.001
 epoch: 120
 best_val: 0.8587
-batch_size: 64feat_dim: 16
+batch_size: 64
+feat_dim: 16

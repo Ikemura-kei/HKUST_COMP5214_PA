@@ -2,7 +2,7 @@
 
 ## Overview
 This PA includes the following models to perform MNIST digit classification.
-* KNN
+* KNN: K-Nearest Neighbors
 * CNN: LeNet5
 * CAN: Context Aggregation Network
 * MLP: Multi-Layer Perceptron
