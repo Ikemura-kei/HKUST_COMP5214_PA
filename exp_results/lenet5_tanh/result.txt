@@ -1,0 +1,5 @@
+lr: 0.08
+epoch: 120
+best_val: 0.9877000000000001
+batch_size: 64
+act: tanh

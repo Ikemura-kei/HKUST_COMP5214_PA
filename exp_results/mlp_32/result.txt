@@ -1,0 +1,5 @@
+lr: 0.001
+epoch: 100
+best_val: 0.9189
+batch_size: 64
+num_neurons: 32

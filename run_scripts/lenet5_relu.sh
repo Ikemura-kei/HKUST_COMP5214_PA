@@ -1,1 +1,1 @@
-python main.py --mode CNN --exp_name lenet5_relu --epoch 120 --act relu --lr 1e-3 --batch_size 64
+python main.py --mode CNN --exp_name lenet5_relu --epoch 120 --act relu --lr 1e-1 --batch_size 64

@@ -1,1 +1,1 @@
-python main.py --mode CNN --exp_name lenet5_tanh --epoch 120 --act tanh --lr 1e-3 --batch_size 64
+python main.py --mode CNN --exp_name lenet5_tanh --epoch 120 --act tanh --lr 8e-2 --batch_size 64
