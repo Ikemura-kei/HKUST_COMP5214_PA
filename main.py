@@ -180,11 +180,12 @@ def main():
         
     if model is None:
         raise Exception("Unrecognized training mode, received {}".format(mode))
-        
-    optimizer = torch.optim.SGD(model.parameters(), lr=lr)
-    model.to(device)
-    loss_func = torch.nn.CrossEntropyLoss()
-    model_state_dict = {"epoch":0, "model_state_dict":model.state_dict(), "loss":0}
+    
+    if mode != MODE_KNN:
+        optimizer = torch.optim.SGD(model.parameters(), lr=lr)
+        model.to(device)
+        loss_func = torch.nn.CrossEntropyLoss()
+        model_state_dict = {"epoch":0, "model_state_dict":model.state_dict(), "loss":0}
     
     #################
     # training loop #
